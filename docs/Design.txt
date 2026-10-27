@@ -1,0 +1,60 @@
+STUDENT GRADE MANAGEMENT SYSTEM – DESIGN (UPGRADED VERSION)
+
+1. Overview:
+This system manages student academic records. It allows adding students, assigning multiple subject marks, calculating GPA, identifying at-risk students, and storing data in a CSV file.
+
+2. Classes Used:
+
+• Student Class:
+  - Attributes:
+    id (int), name (String), subjects (HashMap<String, Integer>)
+  - Methods:
+    addSubject() → adds subject and marks
+    calculateGPA() → calculates GPA based on marks
+    isAtRisk() → returns true if GPA < 5
+    display() → prints student details
+    toCSV() → converts student data into CSV format
+
+• FileHandler Class:
+  - saveStudents() → saves all student data into CSV file
+  - loadStudents() → loads student data from CSV file
+  - Uses BufferedWriter and BufferedReader
+
+• Main Class:
+  - Menu-driven system
+  - Uses ArrayList to store students
+  - Handles user input and system operations
+
+3. Data Structures Used:
+• ArrayList → stores list of students
+• HashMap → stores subject and marks for each student
+
+4. GPA Calculation Logic:
+Marks → Grade Points:
+90+ = 10
+80–89 = 9
+70–79 = 8
+60–69 = 7
+50–59 = 6
+Below 50 = 0
+
+GPA = (Sum of grade points) / Number of subjects
+
+5. Algorithm (Pseudo Code):
+
+Start
+Load students from file
+Display menu
+If choice = 1 → Add student
+If choice = 2 → Add subject marks
+If choice = 3 → Display all students
+If choice = 4 → Calculate class average GPA
+If choice = 5 → Save data and exit
+Repeat until exit
+End
+
+6. File Format:
+CSV Format:
+ID,Name,Subject1:Marks,Subject2:Marks,...
+Example:
+1,Parag,Java:90,Python:80

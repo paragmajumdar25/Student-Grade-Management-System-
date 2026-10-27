@@ -1,0 +1,11 @@
+BUG REPORT
+
+| Bug No | Description | Severity | Fix Applied |
+|--------|------------|----------|-------------|
+| 1 | Constructor mismatch after upgrade | High | Updated Main.java |
+| 2 | toCSV() method missing | High | Added method in Student.java |
+| 3 | File saving failed | Medium | Updated FileHandler |
+| 4 | Duplicate subject allowed | Medium | Added containsKey() check |
+| 5 | Invalid marks accepted | Medium | Added validation |
+| 6 | Scanner input skipping | Low | Used nextLine() properly |
+| 7 | File not found error | Low | Added exception handling |

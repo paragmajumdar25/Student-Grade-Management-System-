@@ -1,0 +1,65 @@
+TEST CASES (UPGRADED)
+
+1. Add Student
+Input: ID=1, Name=Parag
+Expected Output: Student Added
+Result: PASS
+
+--------------------------------------
+
+2. Add Subject Marks
+Input: Java=90, Python=80
+Expected Output: Subjects added successfully
+Result: PASS
+
+--------------------------------------
+
+3. GPA Calculation
+Input: 90, 80
+Expected Output: GPA = (10 + 9)/2 = 9.5
+Result: PASS
+
+--------------------------------------
+
+4. View Students
+Expected Output:
+ID: 1
+Name: Parag
+Java: 90
+Python: 80
+GPA: 9.5
+Result: PASS
+
+--------------------------------------
+
+5. At-Risk Student
+Input: Marks below 50
+Expected Output: "AT RISK"
+Result: PASS
+
+--------------------------------------
+
+6. File Saving
+Expected Output:
+CSV contains: 1,Parag,Java:90,Python:80
+Result: PASS
+
+--------------------------------------
+
+7. File Loading
+Expected Output: Data loads after restart
+Result: PASS
+
+--------------------------------------
+
+8. Invalid Marks
+Input: 150
+Expected Output: Error message
+Result: PASS
+
+--------------------------------------
+
+9. Duplicate Subject
+Input: Add Java twice
+Expected Output: "Subject already exists"
+Result: PASS

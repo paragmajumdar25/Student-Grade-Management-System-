@@ -1,0 +1,9 @@
+OPTIMIZATION REPORT
+
+1. Used HashMap for faster subject lookup
+2. Used ArrayList for dynamic student storage
+3. Modular design using separate classes
+4. Improved readability with methods
+5. Reduced redundancy in GPA calculation
+6. Efficient file handling using BufferedReader/Writer
+7. Added validation to prevent runtime errors
