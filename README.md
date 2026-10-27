@@ -1,4 +1,4 @@
-Student Grade Management System (Final Version)
+Student Grade Management System 
 
 Features:
 - Add students
